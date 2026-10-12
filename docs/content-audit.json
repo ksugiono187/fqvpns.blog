@@ -2,7 +2,7 @@
   {
     "label": "Content structure and data invariants",
     "status": "PASS",
-    "detail": "5 real brands, 15 original articles; sources and dates present, no duplicate bodies or claimed tests"
+    "detail": "5 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 15 original articles; sources and dates present, no duplicate bodies or claimed tests"
   },
   {
     "label": "Independent measurements and proxy-airport verification",

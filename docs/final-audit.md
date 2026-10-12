@@ -4,9 +4,9 @@
 
 ## 交付范围
 
-- 45 个 HTML 页面（含 404），其中 43 个可索引页面。
+- 75 个 HTML 页面（含 404），其中 44 个可索引页面。
 - 首页主攻：机场推荐 / VPN；正式域名 https://fqvpns.blog 。
-- 5 个真实 VPN 品牌资料；5 篇教程、5 篇选择指南、5 篇百科。
+- 5 个已核验 VPN 品牌资料；29 个站方提供的机场品牌入口、11 个优惠码；5 篇教程、5 篇选择指南、5 篇百科。
 - 6 个需求专题、4 类榜单框架；已发布综合资料覆盖排序和同币种月付费用排序。
 - 免费、年付、月付与不同币种明确分开；无合格付费定量套餐，未发布性价比名次；无稳定性实测，稳定页 noindex。
 - 独立评测中心、可构建评测模板和草稿模型；没有独立实测文章。
@@ -18,13 +18,13 @@
 | 检查 | 状态 | 证据与范围 |
 |---|---|---|
 | Production Build | PASS | Astro 6.4.8 静态构建成功；dist 已生成 |
-| TypeScript / Astro | PASS | 30 个文件，0 errors、0 warnings、0 hints |
+| TypeScript / Astro | PASS | 35 个文件，0 errors、0 warnings、0 hints |
 | 费用与 IndexNow 测试 | PASS | 8 项：倍率、未知数据、周期、币种、URL、429重试、永久错误、网络重试 |
-| Generated HTML SEO | PASS | 45 pages, 45 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
+| Generated HTML SEO | PASS | 75 pages, 75 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
-| Internal links, assets, fragments and orphans | PASS | 2014 references; all targets resolve |
+| Internal links, assets, fragments and orphans | PASS | 3617 references; all targets resolve |
 | External link HTTP status | NOT TESTED | Source pages consulted during research; no automated full external-link crawl. |
-| Content structure and data invariants | PASS | 5 real brands, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
+| Content structure and data invariants | PASS | 5 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
 | Independent measurements and proxy-airport verification | NOT TESTED | No speed, stability, AI or streaming test; no proxy-airport official package data verified. |
 | Automated truth detection | NOT TESTED | Scripts detect schema and unsupported test status, cannot establish factual truth. Official source review is separate. |
 | Lighthouse performance (mobile homepage) | PASS | 100/100 |
@@ -48,7 +48,7 @@
 
 ## 上线判断
 
-代码可构建并支持静态上线；当前适合以 VPN 公开资料与选择方法站运营。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
+代码可构建并支持静态上线；当前包含 VPN 公开资料、站方机场入口、优惠码与选择方法；29 个资料不完整的机场详情暂设 noindex，目录与优惠页正常索引。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
 
 ## 维护者手动事项
 
