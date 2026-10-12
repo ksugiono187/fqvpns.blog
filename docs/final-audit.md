@@ -18,7 +18,7 @@
 | 检查 | 状态 | 证据与范围 |
 |---|---|---|
 | Production Build | PASS | Astro 6.4.8 静态构建成功；dist 已生成 |
-| TypeScript / Astro | PASS | 29 个文件，0 errors、0 warnings、0 hints |
+| TypeScript / Astro | PASS | 30 个文件，0 errors、0 warnings、0 hints |
 | 费用与 IndexNow 测试 | PASS | 8 项：倍率、未知数据、周期、币种、URL、429重试、永久错误、网络重试 |
 | Generated HTML SEO | PASS | 45 pages, 45 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
@@ -48,7 +48,7 @@
 
 ## 上线判断
 
-代码可构建并支持静态上线；当前适合以 VPN 公开资料与选择方法站运营。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。正式上线仍需 GitHub 写权限、Cloudflare部署与域名验证、运营联系渠道和内容复核。
+代码可构建并支持静态上线；当前适合以 VPN 公开资料与选择方法站运营。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
 
 ## 维护者手动事项
 
