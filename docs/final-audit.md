@@ -22,7 +22,7 @@
 | 费用与 IndexNow 测试 | PASS | 12 项：费用口径、IndexNow、同档预算容量匹配、争议排除与并列名次 |
 | Generated HTML SEO | PASS | 70 pages, 70 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
-| Internal links, assets, fragments and orphans | PASS | 4030 references; all targets resolve |
+| Internal links, assets, fragments and orphans | PASS | 3935 references; all targets resolve |
 | External link HTTP status | NOT TESTED | Source pages consulted during research; no automated full external-link crawl. |
 | Content structure and data invariants | PASS | 0 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
 | Independent measurements and proxy-airport verification | NOT TESTED | No speed, stability, AI or streaming test; no proxy-airport official package data verified. |
