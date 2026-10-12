@@ -5,7 +5,7 @@ category: "blog"
 published: "2026-10-12"
 updated: "2026-10-12"
 tags: ["budget","beginner"]
-sources: ["https://protonvpn.com/support","https://www.ivpn.net/en/pricing/"]
+sources: []
 draft: false
 ---
 
@@ -23,4 +23,4 @@ draft: false
 ## 免费不是永久可用承诺
 服务政策、地区与平台识别可能变化。记录核验日期，将可用性视为需持续复查的状态。若免费版不满足需求，先了解差异，按月尝试比直接购买长周期更容易控制支出。
 
-本站资料库中可查阅 [Proton VPN](/airport/proton-vpn/)、[Windscribe](/airport/windscribe/) 与 [hide.me](/airport/hide-me/) 的免费方案条件。它们来自官方说明，尚无本站独立测试。
+本站仅收录站方提供的 [29 个机场品牌入口](/airport/)，目前未取得可核验的免费套餐资料。不要把优惠码或邀请奖励视为免费方案。

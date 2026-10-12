@@ -1,42 +1,22 @@
 {
   "https://fqvpns.blog/about/": {
-    "hash": "b6da8232fe9aa80a2516c4dd8c76c7a5d1ecc95a2ac3a38647c20f96c250acc8",
-    "lastmod": "2026-10-12"
-  },
-  "https://fqvpns.blog/airport/hide-me/": {
-    "hash": "db19c8ac35aff6a280f49158ca6a51963a063e386fd8ca523a439389edaf40d9",
+    "hash": "bd84a70ec843bf1df83ca4b3d264126c97ca036b984c97561e65b30916d2fc08",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/airport/": {
-    "hash": "8910ba25d994c231bcfbc4089963a722a596586abc9c1812d16f18c214ba9e40",
-    "lastmod": "2026-10-12"
-  },
-  "https://fqvpns.blog/airport/ivpn/": {
-    "hash": "ed4aa157fbd4017a73d41926e4472d61a462bacb46975c15399447a54d189234",
-    "lastmod": "2026-10-12"
-  },
-  "https://fqvpns.blog/airport/mullvad/": {
-    "hash": "cb58a8accff25c00b814bf3f047e77b1b266431a12e44707d4a2b7ae4e6c0e15",
-    "lastmod": "2026-10-12"
-  },
-  "https://fqvpns.blog/airport/proton-vpn/": {
-    "hash": "0f68fcca189236148bc2f486921624680e9c78a07f782eae916a9417d14c417c",
-    "lastmod": "2026-10-12"
-  },
-  "https://fqvpns.blog/airport/windscribe/": {
-    "hash": "8e69713ec8dd09478f71fd6f0f00a924e1cf1dab4cb22d5da474f1fe67c99863",
+    "hash": "26f56ede571d97edc28a7ba274d28072c17a39e9051bd0bcbb8649b6afeb01d1",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/blog/ai-streaming/": {
-    "hash": "86effd0048a66de6791cbf0eefd9001ee9c940ac2472ef72c8545225cab2800f",
+    "hash": "fd24db7ba3e23227a9babddb18e5f0019cec6bebf7225d5c4fe02b0288ad50f8",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/blog/billing-periods/": {
-    "hash": "b4e9f7abc2a9d0fba4e2f6af319a56a0b4dce284ea8fb7842c2f32523982103f",
+    "hash": "bf7ba7b388eeb3349fe96d83b3e8a4aa6b5c64236faa374c25d076d3d9ae3fbd",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/blog/free-vpn/": {
-    "hash": "418ab60476e3082b287f8e527a79b681e60248b2a5a06186092f3a8c0d3a4bc4",
+    "hash": "6d08a2fe3e5a5c5bee36d9c06586c5b42bd009a88cf465114ba671ab48c11c0f",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/blog/": {
@@ -44,15 +24,15 @@
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/blog/selection-checklist/": {
-    "hash": "ddedd92907e0b1f4705c86321532b1bcc4345dc80ce9bceadd3d5c5c1b4d5ab2",
+    "hash": "03d1dc30a13e461013847d45b2d4a8f6fbbd444f183f9575bdc2c0d8b24ee2da",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/blog/stability-method/": {
-    "hash": "ceae9b9cdfdc20e6d401aeaeea7d496e2780a59859bf3402f1b62774070b4763",
+    "hash": "887eee4eaf6e3428c525055a29274eca887e0b710ea2f996830264e95d540496",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/compare/": {
-    "hash": "d8f46005665f7e56b8651b1ab37c800d56ab25a4769fcb79bdc8526df8559666",
+    "hash": "9131cd3ed1e5074a46b7ee5fa95b90527a8b8cda31c4208eaaa51e3721b286f9",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/contact/": {
@@ -68,11 +48,11 @@
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/editorial-policy/": {
-    "hash": "a4ae850fe42597956fec01a931f070d5a5c0b957ab0d059b96ad35f9b63eba0f",
+    "hash": "8e50d9b37a4b173dc1fecd5c73e18a18284db356e36dfea5796d12778146da2a",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/glossary/dns/": {
-    "hash": "91d75daae6c49182bfc4c8f4891e97436eb9bba11307fc0051bea28bdd2c4dcc",
+    "hash": "a1357c243b58962f690b4db474b4c4a052db8f03daf0564078343e9b92439e9d",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/glossary/": {
@@ -80,23 +60,23 @@
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/glossary/kill-switch/": {
-    "hash": "373dc6d68d7149d46f5118a3b937d4099b151bc3080d98482bc76f921d8c9c27",
+    "hash": "d76c84f34027aae4db708ff1753304e0e587731216e5f9e944e3a0a1b355e382",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/glossary/split-tunneling/": {
-    "hash": "a1b3e5ba89be3bcd362e6483d8123b3ab7ace58bf10af8c5585d887624b6c376",
+    "hash": "bd058d4d6d58219c20abaa594f5cccb1878a8ea8314225926c98d078326d5924",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/glossary/traffic-multiplier/": {
-    "hash": "dac200e7338c37495d3d6151e0e28f0ed23d69f8fa4ce6a99a35655615159cc8",
+    "hash": "9d37e5beacd78dc6404e1347c1dd1190538ebd3d3eaf670ab71fe429c8e18739",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/glossary/vpn-proxy/": {
-    "hash": "3da056bc4e8e6e465be29463fd7e6a35258d310d89a17209be627376a70c5cec",
+    "hash": "681a4cc77e6e675a9f6f114b044f9b718e8bfa9b26b5e1dc7ae855dc54376e0a",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/guides/android/": {
-    "hash": "80366fb30cc07f40f05ca1f055b0c93b95e79d6987b48847479946ac9c65baeb",
+    "hash": "6e6cbee0cad3b45f13d09a4f7bddb2f4ef26779cd5d0d55f8a2d794dede93bb4",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/guides/": {
@@ -104,23 +84,23 @@
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/guides/ios/": {
-    "hash": "fdd824811b0118748ad39c9ae474f20d9edba64a82d68703c1b06aed2dd85789",
+    "hash": "882331ffad72608af691348d5cc5127f01bf19b59a682a2099711227c7b921a1",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/guides/macos/": {
-    "hash": "782b71f1b5033b4e0134b1fe90c605f33dcd6c1ab2a3e2670b71ea3acd38ff91",
+    "hash": "ffe50298a7f11b6f96c4ff70e458009c29706884ee8a86ba210195fd52cd8367",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/guides/troubleshooting/": {
-    "hash": "68d679271ed6e80ed52f9c1e225fc8a8bea4affede8262cc400cba0a6c35b15b",
+    "hash": "5ef2ba609fa7929af9931ba744ce44fd174cbb1c050ae590f83765a15fdcbcd6",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/guides/windows/": {
-    "hash": "a8fbf4805e9425750009a3b82993e80121927207a75a8003708d5702ff89ef80",
+    "hash": "652f168325f542377e0a8cda853c9cdab5a7bbb56f8388742bf54905e9228280",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/": {
-    "hash": "58225e91a21d0bc1b370058afbe4d53282e0a3202bd3749194b148216da6ea0b",
+    "hash": "8da473779f11f7a64a7672e6a2541c569d65778a7b61496bdc86dcca1dffb24c",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/privacy-policy/": {
@@ -128,51 +108,51 @@
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/ranking/budget/": {
-    "hash": "3dbac566ca8c5fab29788493b67a9399e4318e62d51da1ed6d0f3495dd663c42",
+    "hash": "f0f68f17d4fa4e71056398c13e1ef133953a80a7d107d653ef3898b97eefe217",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/ranking/": {
-    "hash": "57ef78e0bc485f904618ee528ae9435e07d03d37a208f9726e149b2437016a8b",
+    "hash": "25fa40067e0a66ab373b10328cc36f857735ce5e457c49483de8a1426eb2f7fe",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/ranking/overall/": {
-    "hash": "8cb17f68c4231244637d56842b2276f1cc2874aae188311b14b66862cba60ef7",
+    "hash": "f453c62cbf92680c0e190cb9fc1f74ca6f9f628d2f2707f9b07f65f060ab3bef",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/ranking/value/": {
-    "hash": "d3c5ceb778f46cdf131036863dfb8da731d628a4e4bd67a5eeeeed044f1afe92",
+    "hash": "f932d2cca520105cd325c9a503c06d8f88d53c2824164ecfdfb458e45b55933a",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/recommend/ai/": {
-    "hash": "dd809ea86779e65e5856c1f473749080e869111b9f2be5001f4b88425ae240c3",
+    "hash": "ed43a2903c4e6abb7bccdde7fbf512115c95790a99ce6b74cb86f2255345b7ea",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/recommend/beginner/": {
-    "hash": "270a0279813b30ac1688e542d4e46bf80e9ea3d021adf958e6934600fcc1f96b",
+    "hash": "9b2a29be560b8516a477d53c1e52b7862474cc62ba28f94686170746ce81a06e",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/recommend/budget/": {
-    "hash": "2e842c0866ee8175752e8c6e257cbfab275d57bc55dae3e2b738479cdc07672b",
+    "hash": "557bdf38fbe0bd9524a6ec52967576121b56dcae6ce40e869b4727e86bf8a2bb",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/recommend/": {
-    "hash": "b00f82c21dbe8969e7c26448c48ea884333cd363b11c204345e7b7b3ad29e756",
+    "hash": "a6661d86a4ebfdbc8f2eb069e5b4a1064aa696dbd521284a42feb907d0b36848",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/recommend/premium/": {
-    "hash": "21374e9df5cf3c9572b1e3c9dd99ddbc4eada0a182c7f164693899f25c8e0e56",
+    "hash": "59d4a4fa28d9de647e24c591f270859e241564816ea7534724b0c74feffa47b1",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/recommend/stable/": {
-    "hash": "3feb5946ff7b5e2554107d3424b358f717c777c42ace544f6d59d1b4a5ae0019",
+    "hash": "2a7e1a09896291e74a860ec850f4e61ca8807f1fb2bb0408934c550098d4f067",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/recommend/streaming/": {
-    "hash": "2cb7530d794925aa1a0a29af97c118d2a690375832783a177f856f865f82c25d",
+    "hash": "a092ad4a090b4d5ea0470026b910d9d4fefc587f0bd4d94839ec9f9586e488ee",
     "lastmod": "2026-10-12"
   },
   "https://fqvpns.blog/review/": {
-    "hash": "b15aa1a0ecdb8cc17113c35ecc1693b76f63e85946b82947ed961de879e09f42",
+    "hash": "3624834775308d22bae0a8e44bb2924680eac266d3813130db323f2f3b847e3a",
     "lastmod": "2026-10-12"
   }
 }

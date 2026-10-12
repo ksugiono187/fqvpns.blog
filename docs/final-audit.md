@@ -4,10 +4,10 @@
 
 ## 交付范围
 
-- 75 个 HTML 页面（含 404），其中 44 个可索引页面。
+- 70 个 HTML 页面（含 404），其中 39 个可索引页面。
 - 首页主攻：机场推荐 / VPN；正式域名 https://fqvpns.blog 。
-- 5 个已核验 VPN 品牌资料；29 个站方提供的机场品牌入口、11 个优惠码；5 篇教程、5 篇选择指南、5 篇百科。
-- 6 个需求专题、4 类榜单框架；已发布综合资料覆盖排序和同币种月付费用排序。
+- 仅保留29 个站方提供的机场品牌入口、11 个优惠码；5 篇教程、5 篇选择指南、5 篇百科。
+- 6 个需求专题、4 类榜单框架；套餐未核验，暂不发布品牌排行名次。
 - 免费、年付、月付与不同币种明确分开；无合格付费定量套餐，未发布性价比名次；无稳定性实测，稳定页 noindex。
 - 独立评测中心、可构建评测模板和草稿模型；没有独立实测文章。
 - 搜索、品牌筛选、2–4 品牌比较、移动导航、相关文章、目录和面包屑。
@@ -18,20 +18,20 @@
 | 检查 | 状态 | 证据与范围 |
 |---|---|---|
 | Production Build | PASS | Astro 6.4.8 静态构建成功；dist 已生成 |
-| TypeScript / Astro | PASS | 35 个文件，0 errors、0 warnings、0 hints |
+| TypeScript / Astro | PASS | 类型检查无错误、警告或提示 |
 | 费用与 IndexNow 测试 | PASS | 8 项：倍率、未知数据、周期、币种、URL、429重试、永久错误、网络重试 |
-| Generated HTML SEO | PASS | 75 pages, 75 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
+| Generated HTML SEO | PASS | 70 pages, 70 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
-| Internal links, assets, fragments and orphans | PASS | 3617 references; all targets resolve |
+| Internal links, assets, fragments and orphans | PASS | 3506 references; all targets resolve |
 | External link HTTP status | NOT TESTED | Source pages consulted during research; no automated full external-link crawl. |
-| Content structure and data invariants | PASS | 5 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
+| Content structure and data invariants | PASS | 0 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
 | Independent measurements and proxy-airport verification | NOT TESTED | No speed, stability, AI or streaming test; no proxy-airport official package data verified. |
 | Automated truth detection | NOT TESTED | Scripts detect schema and unsupported test status, cannot establish factual truth. Official source review is separate. |
-| Lighthouse performance (mobile homepage) | PASS | 100/100 |
+| Lighthouse performance (mobile homepage) | PASS | 99/100 |
 | Lighthouse accessibility (mobile homepage) | PASS | 100/100 |
 | Lighthouse best-practices (mobile homepage) | PASS | 100/100 |
 | Lighthouse seo (mobile homepage) | PASS | 100/100 |
-| 浏览器搜索与筛选 | PASS | DNS 搜索返回 2 条；Mullvad 筛选只保留 1 个品牌 |
+| 浏览器搜索与筛选 | PASS | DNS 搜索返回 2 条；微风筛选只保留 1 个品牌 |
 | 浏览器比较工具 | PASS | 添加 4 个后第 5 个禁用；移除后恢复；清空返回空状态；地址参数更新 |
 | 响应式抽查 | PASS | 首页桌面 1280 与移动 390；文章移动 407；scrollWidth 小于 viewport；表格容器滚动 |
 | 移动导航 | PASS | 展开与收起成功，导航文字可访问 |
@@ -48,7 +48,7 @@
 
 ## 上线判断
 
-代码可构建并支持静态上线；当前包含 VPN 公开资料、站方机场入口、优惠码与选择方法；29 个资料不完整的机场详情暂设 noindex，目录与优惠页正常索引。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
+代码可构建并支持静态上线；当前仅包含站方机场入口、优惠码与选择方法；29 个资料不完整的机场详情暂设 noindex，目录与优惠页正常索引。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
 
 ## 维护者手动事项
 

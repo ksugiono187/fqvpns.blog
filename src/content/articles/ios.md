@@ -5,7 +5,7 @@ category: "guides"
 published: "2026-10-12"
 updated: "2026-10-12"
 tags: ["beginner","clients"]
-sources: ["https://protonvpn.com/download-ios"]
+sources: []
 draft: false
 ---
 

@@ -5,7 +5,7 @@ category: "glossary"
 published: "2026-10-12"
 updated: "2026-10-12"
 tags: ["clients"]
-sources: ["https://protonvpn.com/support"]
+sources: []
 draft: false
 ---
 
