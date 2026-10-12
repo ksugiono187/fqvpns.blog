@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Internal links, assets, fragments and orphans",
+    "status": "PASS",
+    "detail": "2000 references; all targets resolve"
+  },
+  {
+    "label": "External link HTTP status",
+    "status": "NOT TESTED",
+    "detail": "Source pages consulted during research; no automated full external-link crawl."
+  }
+]

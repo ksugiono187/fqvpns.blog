@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Content structure and data invariants",
+    "status": "PASS",
+    "detail": "5 real brands, 15 original articles; sources and dates present, no duplicate bodies or claimed tests"
+  },
+  {
+    "label": "Independent measurements and proxy-airport verification",
+    "status": "NOT TESTED",
+    "detail": "No speed, stability, AI or streaming test; no proxy-airport official package data verified."
+  },
+  {
+    "label": "Automated truth detection",
+    "status": "NOT TESTED",
+    "detail": "Scripts detect schema and unsupported test status, cannot establish factual truth. Official source review is separate."
+  }
+]

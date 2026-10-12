@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {normalizeURLs,submitBatch} from './indexnow-core';
+const domain='https://fqvpns.blog';const payload={host:'fqvpns.blog',key:'12345678',keyLocation:domain+'/12345678.txt',urlList:[domain+'/']};
+test('canonical URL list deduplicates and rejects other origins or non-indexable paths',()=>{assert.deepEqual(normalizeURLs(['/','/'],domain),[domain+'/']);for(const value of ['https://evil.example/','/404/','/ranking/stable/','/blog','/?a=1','/#main'])assert.throws(()=>normalizeURLs([value],domain));});
+test('transient response retries and eventually accepts 202',async()=>{let calls=0;const log:number[]=[];const request=(async()=>new Response('',{status:++calls===1?429:202})) as typeof fetch;assert.equal(await submitBatch(payload,request,async()=>{},s=>log.push(s)),202);assert.deepEqual(log,[429,202]);});
+test('permanent failure does not retry',async()=>{let calls=0;await assert.rejects(()=>submitBatch(payload,(async()=>{calls++;return new Response('',{status:422});}) as typeof fetch,async()=>{}),/422/);assert.equal(calls,1);});
+test('network retries are bounded',async()=>{let calls=0;await assert.rejects(()=>submitBatch(payload,(async()=>{calls++;throw Error('offline');}) as typeof fetch,async()=>{}),/offline/);assert.equal(calls,3);});

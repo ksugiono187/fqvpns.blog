@@ -1,0 +1,5 @@
+---
+import type {CollectionEntry} from 'astro:content';
+const {entries}=Astro.props as {entries:CollectionEntry<'articles'>[]};
+---
+<div class="grid-3">{entries.map(e=><article class="card article-card"><span class="eyebrow">{e.data.category==='guides'?'使用教程':e.data.category==='glossary'?'知识百科':'选择指南'}</span><h3><a href={`/${e.data.category}/${e.id}/`}>{e.data.title}</a></h3><p>{e.data.description}</p><div class="meta">更新于 {e.data.updated} <span aria-hidden="true"> · </span> 阅读全文 ↗</div></article>)}</div>

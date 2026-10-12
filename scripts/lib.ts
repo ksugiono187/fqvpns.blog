@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import {load} from 'cheerio';
+export const domain='https://fqvpns.blog';
+export function files(dir:string,extension:string):string[]{return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name),extension):e.name.endsWith(extension)?[path.join(dir,e.name)]:[]);}
+export function pages(){return files('dist','.html').map(file=>{const rel=path.relative('dist',file).replaceAll('\\','/');const url=rel==='404.html'?'/404/':rel==='index.html'?'/':'/'+rel.replace(/index\.html$/,'');const html=fs.readFileSync(file,'utf8');return {file,url,html,$:load(html)};});}
+export function saveResult(name:string,checks:{label:string;status:'PASS'|'FAIL'|'NOT TESTED';detail:string}[]){fs.mkdirSync('docs',{recursive:true});fs.writeFileSync(`docs/${name}.json`,JSON.stringify(checks,null,2));for(const c of checks)console.log(`${c.status} ${c.label}: ${c.detail}`);if(checks.some(c=>c.status==='FAIL'))process.exitCode=1;}

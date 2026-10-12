@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro';import {policies} from '../data/policies';
+export function getStaticPaths(){return Object.entries(policies).map(([slug,content])=>({params:{policy:slug},props:{content}}));}const {content}=Astro.props;const [title,description,body]=content;
+---
+<Base title={title} description={description} breadcrumbs={[{name:title,url:`/${Astro.params.policy}/`}]}><div class="container"><div class="page-intro"><div class="breadcrumbs"><a href="/">首页</a> / {title}</div><span class="eyebrow">TRANSPARENCY & TRUST</span><h1>{title}</h1><p class="lead">{description}</p><p class="published">更新于 2026-10-12</p></div><article class="prose" style="max-width:800px" set:html={body}/></div></Base>

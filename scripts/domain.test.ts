@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {costPerGB,monthlyCost,pricedMonthly,type Plan} from '../src/data/airports';
+const plan:Plan={name:'mathematical fixture',price:20,currency:'USD',period:'month',trafficGB:100,multiplier:2,verified:true,note:'test only'};
+test('deducted multiplier reduces usable traffic',()=>assert.equal(costPerGB(plan),0.4));
+test('unlimited and unverified are excluded from cost',()=>{assert.equal(costPerGB({...plan,unlimited:true}),undefined);assert.equal(costPerGB({...plan,verified:false}),undefined);assert.equal(costPerGB({...plan,trafficGB:0}),undefined);assert.equal(costPerGB({...plan,multiplier:0}),undefined);});
+test('annual payments amortize but one-time packages do not',()=>{assert.equal(monthlyCost({...plan,period:'year',months:12,price:60}),5);assert.equal(monthlyCost({...plan,period:'one-time'}),undefined);assert.equal(monthlyCost({...plan,period:'year',months:0}),undefined);});
+test('budget sorting excludes free and annual and isolates currency',()=>{const list=pricedMonthly('USD');assert.deepEqual(list.map(x=>x.p.price),[6,9,11.99]);assert.ok(list.every(x=>x.p.period==='month'&&x.p.currency==='USD'&&x.p.verified));});

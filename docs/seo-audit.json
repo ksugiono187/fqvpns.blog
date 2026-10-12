@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Generated HTML SEO",
+    "status": "PASS",
+    "detail": "45 pages, 45 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed"
+  },
+  {
+    "label": "Search-engine rich result interpretation",
+    "status": "NOT TESTED",
+    "detail": "JSON parse and visible headline checks are not a Bing live validator."
+  }
+]
