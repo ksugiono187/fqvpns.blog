@@ -22,13 +22,13 @@
 | 费用与 IndexNow 测试 | PASS | 8 项：倍率、未知数据、周期、币种、URL、429重试、永久错误、网络重试 |
 | Generated HTML SEO | PASS | 45 pages, 45 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
-| Internal links, assets, fragments and orphans | PASS | 2024 references; all targets resolve |
+| Internal links, assets, fragments and orphans | PASS | 2014 references; all targets resolve |
 | External link HTTP status | NOT TESTED | Source pages consulted during research; no automated full external-link crawl. |
 | Content structure and data invariants | PASS | 5 real brands, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
 | Independent measurements and proxy-airport verification | NOT TESTED | No speed, stability, AI or streaming test; no proxy-airport official package data verified. |
 | Automated truth detection | NOT TESTED | Scripts detect schema and unsupported test status, cannot establish factual truth. Official source review is separate. |
-| Lighthouse performance (mobile homepage) | PASS | 99/100 |
-| Lighthouse accessibility (mobile homepage) | PASS | 95/100 |
+| Lighthouse performance (mobile homepage) | PASS | 100/100 |
+| Lighthouse accessibility (mobile homepage) | PASS | 100/100 |
 | Lighthouse best-practices (mobile homepage) | PASS | 100/100 |
 | Lighthouse seo (mobile homepage) | PASS | 100/100 |
 | 浏览器搜索与筛选 | PASS | DNS 搜索返回 2 条；Mullvad 筛选只保留 1 个品牌 |
