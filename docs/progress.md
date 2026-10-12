@@ -17,4 +17,6 @@
 
 ## Git 回执
 
-待最终提交与推送。
+首次提交 `fbf1a19`，已成功推送到指定仓库 `origin/main`。Git 返回新分支 main -> main，并建立 upstream。无 force push。
+
+Lighthouse 首页移动端实际结果：Performance 100、Accessibility 96、Best Practices 100、SEO 100。完整 JSON 与 HTML 报告保存在 docs/。

@@ -37,7 +37,7 @@
 | 移动导航 | PASS | 展开与收起成功，导航文字可访问 |
 | IndexNow 单 URL dry run | PASS | 输出正式 canonical 和 Key 地址；未执行网络提交 |
 | IndexNow 正式 HTTP 提交 | NOT TESTED | 正式域名尚未部署验证，不假称提交成功 |
-| GitHub push | NOT TESTED | 以实际 Git 回执为准，见进度记录 |
+| GitHub push | PASS | 以实际 Git 回执为准，见进度记录 |
 | Cloudflare / DNS / HTTPS | NOT TESTED | 需要维护者账户授权与 DNS 配置 |
 | Bing 收录与在线 Schema 检查 | NOT TESTED | 需要上线并登录 Webmaster Tools |
 | 真实用户 INP / Core Web Vitals | NOT TESTED | 本地 Lighthouse 不代表生产真实用户指标 |
