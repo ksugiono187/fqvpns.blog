@@ -4,11 +4,11 @@
 
 ## 交付范围
 
-- 70 个 HTML 页面（含 404），其中 39 个可索引页面。
+- 70 个 HTML 页面（含 404），其中 65 个可索引页面。
 - 首页主攻：机场推荐 / VPN；正式域名 https://fqvpns.blog 。
 - 仅保留29 个站方提供的机场品牌入口、11 个优惠码；5 篇教程、5 篇选择指南、5 篇百科。
-- 6 个需求专题、4 类榜单框架；套餐未核验，暂不发布品牌排行名次。
-- 免费、年付、月付与不同币种明确分开；无合格付费定量套餐，未发布性价比名次；无稳定性实测，稳定页 noindex。
+- 6 个需求专题、4 类榜单框架；26 个品牌的170个第三方参考套餐已接入，发布月付价格、200GB需求和标称元/GB榜；不发布性能名次。
+- 免费、年付、月付与不同币种明确分开；单位成本仅按明确月容量计算，未计倍率或优惠；无稳定性实测，稳定页 noindex。
 - 独立评测中心、可构建评测模板和草稿模型；没有独立实测文章。
 - 搜索、品牌筛选、2–4 品牌比较、移动导航、相关文章、目录和面包屑。
 - Metadata、Canonical、Schema、robots、Sitemap、真实内容变化 lastmod、IndexNow Key 与提交模块、GitHub CI、部署文档。
@@ -19,15 +19,15 @@
 |---|---|---|
 | Production Build | PASS | Astro 6.4.8 静态构建成功；dist 已生成 |
 | TypeScript / Astro | PASS | 类型检查无错误、警告或提示 |
-| 费用与 IndexNow 测试 | PASS | 8 项：倍率、未知数据、周期、币种、URL、429重试、永久错误、网络重试 |
+| 费用与 IndexNow 测试 | PASS | 12 项：费用口径、IndexNow、同档预算容量匹配、争议排除与并列名次 |
 | Generated HTML SEO | PASS | 70 pages, 70 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
-| Internal links, assets, fragments and orphans | PASS | 3506 references; all targets resolve |
+| Internal links, assets, fragments and orphans | PASS | 4030 references; all targets resolve |
 | External link HTTP status | NOT TESTED | Source pages consulted during research; no automated full external-link crawl. |
 | Content structure and data invariants | PASS | 0 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
 | Independent measurements and proxy-airport verification | NOT TESTED | No speed, stability, AI or streaming test; no proxy-airport official package data verified. |
 | Automated truth detection | NOT TESTED | Scripts detect schema and unsupported test status, cannot establish factual truth. Official source review is separate. |
-| Lighthouse performance (mobile homepage) | PASS | 99/100 |
+| Lighthouse performance (mobile homepage) | PASS | 100/100 |
 | Lighthouse accessibility (mobile homepage) | PASS | 100/100 |
 | Lighthouse best-practices (mobile homepage) | PASS | 100/100 |
 | Lighthouse seo (mobile homepage) | PASS | 100/100 |
@@ -48,7 +48,7 @@
 
 ## 上线判断
 
-代码可构建并支持静态上线；当前仅包含站方机场入口、优惠码与选择方法；29 个资料不完整的机场详情暂设 noindex，目录与优惠页正常索引。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
+代码可构建并支持静态上线；当前仅包含站方机场入口、优惠码与选择方法；26 个有参考套餐的品牌详情可索引，3 个缺失或归属争议品牌仍 noindex。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
 
 ## 维护者手动事项
 

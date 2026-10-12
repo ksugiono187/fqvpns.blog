@@ -1,5 +1,5 @@
 ---
-import CouponCode from './CouponCode.astro';import type {SuppliedBrand} from '../data/supplied-brands';
-const {brand:b}=Astro.props as {brand:SuppliedBrand};
+import CouponCode from './CouponCode.astro';import {catalog,monthlyStart} from '../data/selection';import type {SuppliedBrand} from '../data/supplied-brands';
+const {brand:b}=Astro.props as {brand:SuppliedBrand};const reference=catalog.find(x=>x.slug===b.slug)!;const start=monthlyStart(reference);
 ---
-<article class="card supplied-card"><div class="supplied-card-top"><span class="label">机场 · 站方提供</span><span aria-hidden="true">↗</span></div><h3><a href={`/airport/${b.slug}/`}>{b.name}</a></h3><p>套餐、线路与使用表现待核实。</p>{b.coupon?<><span class="coupon-label">优惠码 · 有效性待核实</span><CouponCode code={b.coupon} brand={b.name}/></>:<p class="no-coupon">暂未提供优惠码</p>}<div class="supplied-actions"><a href={`/airport/${b.slug}/`}>品牌详情 →</a><a href={b.affiliateUrl} target="_blank" rel="sponsored nofollow noopener noreferrer">推广入口 ↗</a></div></article>
+<article class="card supplied-card"><div class="supplied-card-top"><span class="label">机场 · 站方提供</span><span aria-hidden="true">↗</span></div><h3><a href={`/airport/${b.slug}/`}>{b.name}</a></h3><div class="reference-card-price">{start?<><strong>¥{start.price}<small> / 月起</small></strong><span>{start.trafficPeriod==='month'&&start.trafficGB?`${start.trafficGB}GB/月`:'该档流量待核实'}</span></>:<strong>价格待核实</strong>}</div><p>{reference.note}</p>{b.coupon?<><span class="coupon-label">优惠码 · 有效性待核实</span><CouponCode code={b.coupon} brand={b.name}/></>:<p class="no-coupon">暂未提供优惠码</p>}<div class="supplied-actions"><a href={`/airport/${b.slug}/`}>品牌详情 →</a><a href={b.affiliateUrl} target="_blank" rel="sponsored nofollow noopener noreferrer">推广入口 ↗</a></div></article>

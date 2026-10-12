@@ -1,0 +1,1954 @@
+[
+  {
+    "slug": "breezenet",
+    "name": "微风网络 Breezenet",
+    "sourceUrl": "https://jichangblog.org/brands/breezenet/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "微风网络参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "清风 Breeze",
+        "price": 137,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 100,
+        "trafficPeriod": "unknown",
+        "trafficText": "100GB · 重置周期待核验"
+      },
+      {
+        "name": "乘风 Riding",
+        "price": 27,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 200,
+        "trafficPeriod": "month",
+        "trafficText": "200GB/月"
+      },
+      {
+        "name": "破风 Breaking",
+        "price": 57,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "御风 Mastery",
+        "price": 127,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1200,
+        "trafficPeriod": "month",
+        "trafficText": "1200GB/月"
+      },
+      {
+        "name": "信风·不限时",
+        "price": 200,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 270,
+        "trafficPeriod": "total",
+        "trafficText": "270GB 总量"
+      },
+      {
+        "name": "长风·不限时",
+        "price": 370,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 570,
+        "trafficPeriod": "total",
+        "trafficText": "570GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "flycat",
+    "name": "飞猫云",
+    "sourceUrl": "https://jichangblog.org/brands/flycat/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "飞猫云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "学生版",
+        "price": 84,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 50,
+        "trafficPeriod": "month",
+        "trafficText": "50GB/月"
+      },
+      {
+        "name": "星耀版",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "星环版",
+        "price": 45,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "银河版",
+        "price": 85,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 600,
+        "trafficPeriod": "month",
+        "trafficText": "600GB/月"
+      },
+      {
+        "name": "宇宙版",
+        "price": 150,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      },
+      {
+        "name": "不限时",
+        "price": 680,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 1000,
+        "trafficPeriod": "total",
+        "trafficText": "1000GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "twilight",
+    "name": "暮光网络",
+    "sourceUrl": "https://jichangblog.org/brands/twilight/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "暮光网络参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "暮光·基础版",
+        "price": 20,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "暮光·标准版",
+        "price": 40,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 240,
+        "trafficPeriod": "month",
+        "trafficText": "240GB/月"
+      },
+      {
+        "name": "暮光·旗舰版",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 700,
+        "trafficPeriod": "month",
+        "trafficText": "700GB/月"
+      },
+      {
+        "name": "暮光·至尊版",
+        "price": 180,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1500,
+        "trafficPeriod": "month",
+        "trafficText": "1500GB/月"
+      },
+      {
+        "name": "暮光·年付轻量版",
+        "price": 109,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 70,
+        "trafficPeriod": "unknown",
+        "trafficText": "70GB · 重置周期待核验"
+      },
+      {
+        "name": "暮光·不限时轻量包",
+        "price": 219,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 150,
+        "trafficPeriod": "total",
+        "trafficText": "150GB 总量"
+      },
+      {
+        "name": "暮光·不限时标准包",
+        "price": 529,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 400,
+        "trafficPeriod": "total",
+        "trafficText": "400GB 总量"
+      },
+      {
+        "name": "暮光·不限时大容量包",
+        "price": 959,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 800,
+        "trafficPeriod": "total",
+        "trafficText": "800GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "dalaocloud",
+    "name": "大佬云",
+    "status": "missing",
+    "plans": []
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly机场",
+    "sourceUrl": "https://jichangblog.org/brands/firefly/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "disputed",
+    "caption": "Firefly机场参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "Firefly年付版",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "Firefly Lite",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "Firefly Plus",
+        "price": 45,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "Firefly Blaze",
+        "price": 85,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 600,
+        "trafficPeriod": "month",
+        "trafficText": "600GB/月"
+      },
+      {
+        "name": "Firefly Nova",
+        "price": 150,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      },
+      {
+        "name": "Firefly不限时",
+        "price": 100,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 100,
+        "trafficPeriod": "total",
+        "trafficText": "100GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "civet",
+    "name": "灵猫",
+    "sourceUrl": "https://jichangblog.org/brands/civet/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "灵猫参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "灵猫·年付小包",
+        "price": 85,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 45,
+        "trafficPeriod": "unknown",
+        "trafficText": "45GB · 重置周期待核验"
+      },
+      {
+        "name": "灵猫·年付Small",
+        "price": 195,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "灵猫·年付Big",
+        "price": 295,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "灵猫·月付Small",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "灵猫·月付Big",
+        "price": 45,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "flashleap",
+    "name": "闪跃 FlashLeap",
+    "sourceUrl": "https://jichangblog.org/brands/flashleap/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "闪跃参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "闪跃年付版",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "闪动 Flicker",
+        "price": 24,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "飞跃 Leap",
+        "price": 44,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "瞬移 Teleport",
+        "price": 84,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 600,
+        "trafficPeriod": "month",
+        "trafficText": "600GB/月"
+      },
+      {
+        "name": "跃迁 Warp",
+        "price": 134,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "worryfree",
+    "name": "无忧链接",
+    "sourceUrl": "https://jichangblog.org/brands/worryfree/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "无忧链接参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "MINI链接",
+        "price": 79,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 40,
+        "trafficPeriod": "unknown",
+        "trafficText": "40GB · 重置周期待核验"
+      },
+      {
+        "name": "舒心链接",
+        "price": 19,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 100,
+        "trafficPeriod": "month",
+        "trafficText": "100GB/月"
+      },
+      {
+        "name": "省心链接",
+        "price": 33,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 200,
+        "trafficPeriod": "month",
+        "trafficText": "200GB/月"
+      },
+      {
+        "name": "随心链接",
+        "price": 77,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "忘忧链接",
+        "price": 117,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      },
+      {
+        "name": "100G永久不限时 无忧链接",
+        "price": 108,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 100,
+        "trafficPeriod": "total",
+        "trafficText": "100GB 总量"
+      },
+      {
+        "name": "300G永久不限时 无忧链接",
+        "price": 298,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 300,
+        "trafficPeriod": "total",
+        "trafficText": "300GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "kuajie",
+    "name": "跨界云",
+    "sourceUrl": "https://jichangblog.org/brands/kuajie/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "跨界云参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "跨界年付版",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "轻云 Lite",
+        "price": 20,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "跃云 Leap",
+        "price": 40,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 330,
+        "trafficPeriod": "month",
+        "trafficText": "330GB/月"
+      },
+      {
+        "name": "凌云 Soar",
+        "price": 90,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 830,
+        "trafficPeriod": "month",
+        "trafficText": "830GB/月"
+      },
+      {
+        "name": "无界 Infinity",
+        "price": 130,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1800,
+        "trafficPeriod": "month",
+        "trafficText": "1800GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "stardream",
+    "name": "星岛梦 StarDream",
+    "sourceUrl": "https://jichangblog.org/brands/stardream/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "星岛梦参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "贴心小包",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "超量150G",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "进阶300G",
+        "price": 50,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "闪光500G",
+        "price": 70,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "旗舰1T",
+        "price": 130,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      },
+      {
+        "name": "不限时买断 100G",
+        "price": 100,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 100,
+        "trafficPeriod": "total",
+        "trafficText": "100GB 总量"
+      },
+      {
+        "name": "不限时买断 300G",
+        "price": 300,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 300,
+        "trafficPeriod": "total",
+        "trafficText": "300GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "lightspeed",
+    "name": "光速云 LightSpeed",
+    "sourceUrl": "https://jichangblog.org/brands/lightspeed/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "光速云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "光速云·轻量版",
+        "price": 99,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 59,
+        "trafficPeriod": "unknown",
+        "trafficText": "59GB · 重置周期待核验"
+      },
+      {
+        "name": "光速云·极速版",
+        "price": 17,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 110,
+        "trafficPeriod": "month",
+        "trafficText": "110GB/月"
+      },
+      {
+        "name": "光速云·流光版",
+        "price": 34,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 220,
+        "trafficPeriod": "month",
+        "trafficText": "220GB/月"
+      },
+      {
+        "name": "光速云·量子版",
+        "price": 68,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 450,
+        "trafficPeriod": "month",
+        "trafficText": "450GB/月"
+      },
+      {
+        "name": "光速云·无界版",
+        "price": 130,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 900,
+        "trafficPeriod": "month",
+        "trafficText": "900GB/月"
+      },
+      {
+        "name": "光速云·不限时套餐",
+        "price": 680,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 1000,
+        "trafficPeriod": "total",
+        "trafficText": "1000GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "v2yun",
+    "name": "唯兔云（V2云）",
+    "sourceUrl": "https://jichangblog.org/brands/v2yun/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "唯兔云（V2云）参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "唯兔云·年付加强专线",
+        "price": 120,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 75,
+        "trafficPeriod": "unknown",
+        "trafficText": "75GB · 重置周期待核验"
+      },
+      {
+        "name": "唯兔云·年付版限量款",
+        "price": 79.9,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 45,
+        "trafficPeriod": "unknown",
+        "trafficText": "45GB · 重置周期待核验"
+      },
+      {
+        "name": "唯兔云·普通版",
+        "price": 19.9,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "唯兔云·进阶版",
+        "price": 29.9,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 200,
+        "trafficPeriod": "month",
+        "trafficText": "200GB/月"
+      },
+      {
+        "name": "唯兔云·专业版",
+        "price": 59.9,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "唯兔云·至尊版",
+        "price": 119.9,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      },
+      {
+        "name": "唯兔云·永久不限时",
+        "price": 100,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 100,
+        "trafficPeriod": "total",
+        "trafficText": "100GB 总量"
+      },
+      {
+        "name": "唯兔云·永久不限时",
+        "price": 160,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 200,
+        "trafficPeriod": "total",
+        "trafficText": "200GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "u1s1",
+    "name": "U1S1（有一说一）",
+    "sourceUrl": "https://jichangblog.org/brands/u1s1/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "U1S1（有一说一）参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "u1s1·就是好用包",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "u1s1·普通人真够了包",
+        "price": 20,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "u1s1·你以为用不到包",
+        "price": 40,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "u1s1·瘾大就拉满包",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 700,
+        "trafficPeriod": "month",
+        "trafficText": "700GB/月"
+      },
+      {
+        "name": "u1s1·我全都要包",
+        "price": 180,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1500,
+        "trafficPeriod": "month",
+        "trafficText": "1500GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "jilian",
+    "name": "极连云",
+    "sourceUrl": "https://jichangblog.org/brands/jilian/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "disputed",
+    "caption": "极连云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "限时年付套餐体验",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "极速云·基础套餐",
+        "price": 18,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 100,
+        "trafficPeriod": "month",
+        "trafficText": "100GB/月"
+      },
+      {
+        "name": "极速云·进阶套餐",
+        "price": 32,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 200,
+        "trafficPeriod": "month",
+        "trafficText": "200GB/月"
+      },
+      {
+        "name": "极速云·旗舰套餐",
+        "price": 61,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "极速云·尊享套餐",
+        "price": 122,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      },
+      {
+        "name": "极速云·不限时套餐",
+        "price": 399,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 600,
+        "trafficPeriod": "total",
+        "trafficText": "600GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "globalcloud",
+    "name": "全球云",
+    "sourceUrl": "https://jichangblog.org/brands/globalcloud/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "全球云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "BGP 智能优化·不限时轻量包",
+        "price": 100,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 100,
+        "trafficPeriod": "total",
+        "trafficText": "100GB 总量"
+      },
+      {
+        "name": "BGP 智能优化·不限时标准包",
+        "price": 360,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 400,
+        "trafficPeriod": "total",
+        "trafficText": "400GB 总量"
+      },
+      {
+        "name": "BGP 智能优化·不限时大容量包",
+        "price": 700,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 800,
+        "trafficPeriod": "total",
+        "trafficText": "800GB 总量"
+      },
+      {
+        "name": "轻量版",
+        "price": 99,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 59,
+        "trafficPeriod": "unknown",
+        "trafficText": "59GB · 重置周期待核验"
+      },
+      {
+        "name": "BGP 智能优化·入门方案",
+        "price": 20,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "BGP 智能优化·进阶方案",
+        "price": 40,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "BGP 智能优化·高端方案",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 700,
+        "trafficPeriod": "month",
+        "trafficText": "700GB/月"
+      },
+      {
+        "name": "BGP 智能优化·商业方案",
+        "price": 180,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1500,
+        "trafficPeriod": "month",
+        "trafficText": "1500GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "guangnianti",
+    "name": "光年梯",
+    "sourceUrl": "https://jichangblog.org/brands/guangnianti/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "光年梯参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "年付限时套餐",
+        "price": 89,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 50,
+        "trafficPeriod": "unknown",
+        "trafficText": "50GB · 重置周期待核验"
+      },
+      {
+        "name": "光年梯 入门版",
+        "price": 18,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 110,
+        "trafficPeriod": "month",
+        "trafficText": "110GB/月"
+      },
+      {
+        "name": "光年梯 晋级版",
+        "price": 34,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 220,
+        "trafficPeriod": "month",
+        "trafficText": "220GB/月"
+      },
+      {
+        "name": "光年梯 专业版",
+        "price": 68,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 450,
+        "trafficPeriod": "month",
+        "trafficText": "450GB/月"
+      },
+      {
+        "name": "光年梯 至尊版",
+        "price": 130,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 900,
+        "trafficPeriod": "month",
+        "trafficText": "900GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "sogo",
+    "name": "Sogo云",
+    "sourceUrl": "https://jichangblog.org/brands/sogo/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "Sogo云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "小包-月付版",
+        "price": 15,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 60,
+        "trafficPeriod": "month",
+        "trafficText": "60GB/月"
+      },
+      {
+        "name": "小包-年付版",
+        "price": 98,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 30,
+        "trafficPeriod": "unknown",
+        "trafficText": "30GB · 重置周期待核验"
+      },
+      {
+        "name": "基础版",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "优选版",
+        "price": 45,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 250,
+        "trafficPeriod": "month",
+        "trafficText": "250GB/月"
+      },
+      {
+        "name": "强化版",
+        "price": 80,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "顶配版",
+        "price": 150,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      },
+      {
+        "name": "不限时买断 100G",
+        "price": 120,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 100,
+        "trafficPeriod": "total",
+        "trafficText": "100GB 总量"
+      },
+      {
+        "name": "不限时买断 250G",
+        "price": 220,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 250,
+        "trafficPeriod": "total",
+        "trafficText": "250GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "yuzhou",
+    "name": "宇宙云 YuZhou",
+    "sourceUrl": "https://jichangblog.org/brands/yuzhou/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "宇宙云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "星云年付小包",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "星云月付小包",
+        "price": 12.5,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 50,
+        "trafficPeriod": "month",
+        "trafficText": "50GB/月"
+      },
+      {
+        "name": "行星基础版",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "恒星标准版",
+        "price": 50,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 240,
+        "trafficPeriod": "month",
+        "trafficText": "240GB/月"
+      },
+      {
+        "name": "星系专业版",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "寰宇旗舰版",
+        "price": 200,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "2mao",
+    "name": "二猫云 2mao",
+    "sourceUrl": "https://jichangblog.org/brands/2mao/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "二猫云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "月付小包",
+        "price": 13,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 60,
+        "trafficPeriod": "month",
+        "trafficText": "60GB/月"
+      },
+      {
+        "name": "年付小包",
+        "price": 89,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "month",
+        "trafficText": "60GB/月"
+      },
+      {
+        "name": "白猫套餐",
+        "price": 20,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 130,
+        "trafficPeriod": "month",
+        "trafficText": "130GB/月"
+      },
+      {
+        "name": "橘猫畅玩版",
+        "price": 40,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 230,
+        "trafficPeriod": "month",
+        "trafficText": "230GB/月"
+      },
+      {
+        "name": "牛奶猫尊享版",
+        "price": 80,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 430,
+        "trafficPeriod": "month",
+        "trafficText": "430GB/月"
+      },
+      {
+        "name": "黑猫重度用户版",
+        "price": 160,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 850,
+        "trafficPeriod": "month",
+        "trafficText": "850GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "1fly",
+    "name": "一翻云 1fly",
+    "sourceUrl": "https://jichangblog.org/brands/1fly/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "一翻云参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "年付版",
+        "price": 98,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "轻享版",
+        "price": 20,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "舒享版",
+        "price": 35,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 350,
+        "trafficPeriod": "month",
+        "trafficText": "350GB/月"
+      },
+      {
+        "name": "尊享版",
+        "price": 55,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 600,
+        "trafficPeriod": "month",
+        "trafficText": "600GB/月"
+      },
+      {
+        "name": "极致版",
+        "price": 95,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1200,
+        "trafficPeriod": "month",
+        "trafficText": "1200GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "edgenova",
+    "name": "边缘节点 EdgeNova",
+    "sourceUrl": "https://jichangblog.org/brands/edgenova/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "边缘节点参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "限时月付",
+        "price": 15,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 72,
+        "trafficPeriod": "month",
+        "trafficText": "72GB/月"
+      },
+      {
+        "name": "限时年付",
+        "price": 108,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 45,
+        "trafficPeriod": "unknown",
+        "trafficText": "45GB · 重置周期待核验"
+      },
+      {
+        "name": "极界·标准",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "极界·进阶",
+        "price": 50,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 250,
+        "trafficPeriod": "month",
+        "trafficText": "250GB/月"
+      },
+      {
+        "name": "极界·高级",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "极界·极限",
+        "price": 200,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "kosing",
+    "name": "可信云",
+    "sourceUrl": "https://jichangblog.org/brands/kosing/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "可信云参考套餐表 · 人民币 · 来源记录日期 2026-09-27",
+    "plans": [
+      {
+        "name": "年费小礼包",
+        "price": 96,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "month",
+        "trafficText": "60GB/月"
+      },
+      {
+        "name": "月付小包",
+        "price": 15,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 60,
+        "trafficPeriod": "month",
+        "trafficText": "60GB/月"
+      },
+      {
+        "name": "基础版",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "标准版",
+        "price": 50,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "专业版",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 600,
+        "trafficPeriod": "month",
+        "trafficText": "600GB/月"
+      },
+      {
+        "name": "旗舰版",
+        "price": 200,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1200,
+        "trafficPeriod": "month",
+        "trafficText": "1200GB/月"
+      },
+      {
+        "name": "永久不限时",
+        "price": 50,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 50,
+        "trafficPeriod": "total",
+        "trafficText": "50GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "sujie",
+    "name": "速界 SuJie",
+    "sourceUrl": "https://jichangblog.org/brands/sujie/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "速界参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "年付体验包",
+        "price": 90,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 50,
+        "trafficPeriod": "unknown",
+        "trafficText": "50GB · 重置周期待核验"
+      },
+      {
+        "name": "极速版",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 120,
+        "trafficPeriod": "month",
+        "trafficText": "120GB/月"
+      },
+      {
+        "name": "超速版",
+        "price": 50,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 250,
+        "trafficPeriod": "month",
+        "trafficText": "250GB/月"
+      },
+      {
+        "name": "光速版",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "跃迁版",
+        "price": 200,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "kuaili",
+    "name": "快狸 KuaiLi",
+    "sourceUrl": "https://jichangblog.org/brands/kuaili/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "快狸参考套餐表 · 人民币 · 来源记录日期 2026-08-09",
+    "plans": [
+      {
+        "name": "年付小套餐",
+        "price": 120,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 30,
+        "trafficPeriod": "unknown",
+        "trafficText": "30GB · 重置周期待核验"
+      },
+      {
+        "name": "月付小套餐",
+        "price": 15,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 50,
+        "trafficPeriod": "month",
+        "trafficText": "50GB/月"
+      },
+      {
+        "name": "小狸基础版",
+        "price": 22,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 100,
+        "trafficPeriod": "month",
+        "trafficText": "100GB/月"
+      },
+      {
+        "name": "灵狸标准版",
+        "price": 35,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 250,
+        "trafficPeriod": "month",
+        "trafficText": "250GB/月"
+      },
+      {
+        "name": "夜狸强化版",
+        "price": 95,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 500,
+        "trafficPeriod": "month",
+        "trafficText": "500GB/月"
+      },
+      {
+        "name": "天狸顶配版",
+        "price": 180,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1000,
+        "trafficPeriod": "month",
+        "trafficText": "1000GB/月"
+      }
+    ]
+  },
+  {
+    "slug": "flyv",
+    "name": "飞V",
+    "sourceUrl": "https://jichangblog.org/brands/flyv/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "飞V参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "FlyV 会员·入门方案",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 150,
+        "trafficPeriod": "month",
+        "trafficText": "150GB/月"
+      },
+      {
+        "name": "FlyV 会员·进阶方案",
+        "price": 50,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 380,
+        "trafficPeriod": "month",
+        "trafficText": "380GB/月"
+      },
+      {
+        "name": "FlyV 会员·高端方案",
+        "price": 110,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 800,
+        "trafficPeriod": "month",
+        "trafficText": "800GB/月"
+      },
+      {
+        "name": "FlyV 会员·商业方案",
+        "price": 190,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1843,
+        "trafficPeriod": "month",
+        "trafficText": "1843GB/月"
+      },
+      {
+        "name": "FlyV 会员·年付标准轻量版",
+        "price": 99,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 65,
+        "trafficPeriod": "unknown",
+        "trafficText": "65GB · 重置周期待核验"
+      },
+      {
+        "name": "FlyV 会员·单次轻量版·小流量包",
+        "price": 189,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 130,
+        "trafficPeriod": "total",
+        "trafficText": "130GB 总量"
+      },
+      {
+        "name": "FlyV 会员·单次轻量版·标准流量包",
+        "price": 479,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 380,
+        "trafficPeriod": "total",
+        "trafficText": "380GB 总量"
+      },
+      {
+        "name": "FlyV 会员·单次轻量版·精英流量包",
+        "price": 799,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 600,
+        "trafficPeriod": "total",
+        "trafficText": "600GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "laddercloud",
+    "name": "梯子云 LadderCloud",
+    "sourceUrl": "https://jichangblog.org/brands/laddercloud/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "梯子云参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "初阶网络·基础视界",
+        "price": 25,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 125,
+        "trafficPeriod": "month",
+        "trafficText": "125GB/月"
+      },
+      {
+        "name": "中阶加速·极清多线",
+        "price": 60,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 350,
+        "trafficPeriod": "month",
+        "trafficText": "350GB/月"
+      },
+      {
+        "name": "高阶专线·全球智联",
+        "price": 110,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 750,
+        "trafficPeriod": "month",
+        "trafficText": "750GB/月"
+      },
+      {
+        "name": "顶阶商业·全球骨干",
+        "price": 190,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1600,
+        "trafficPeriod": "month",
+        "trafficText": "1600GB/月"
+      },
+      {
+        "name": "天梯随行·年度保活方案",
+        "price": 89,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 60,
+        "trafficPeriod": "unknown",
+        "trafficText": "60GB · 重置周期待核验"
+      },
+      {
+        "name": "云端买断·永不限时轻量包",
+        "price": 169,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 120,
+        "trafficPeriod": "total",
+        "trafficText": "120GB 总量"
+      },
+      {
+        "name": "云端买断·永不限时标准包",
+        "price": 449,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 350,
+        "trafficPeriod": "total",
+        "trafficText": "350GB 总量"
+      },
+      {
+        "name": "云端买断·永不限时精英包",
+        "price": 849,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 700,
+        "trafficPeriod": "total",
+        "trafficText": "700GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "wavenet",
+    "name": "浪网 WaveNet",
+    "sourceUrl": "https://jichangblog.org/brands/wavenet/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "浪网参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "浪网 高端",
+        "price": 120,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 800,
+        "trafficPeriod": "month",
+        "trafficText": "800GB/月"
+      },
+      {
+        "name": "浪网 商业",
+        "price": 200,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 2000,
+        "trafficPeriod": "month",
+        "trafficText": "2000GB/月"
+      },
+      {
+        "name": "浪网 年付标准",
+        "price": 119,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 80,
+        "trafficPeriod": "unknown",
+        "trafficText": "80GB · 重置周期待核验"
+      },
+      {
+        "name": "浪网 小流量包",
+        "price": 239,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 180,
+        "trafficPeriod": "total",
+        "trafficText": "180GB 总量"
+      },
+      {
+        "name": "浪网 标准流量包",
+        "price": 569,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 450,
+        "trafficPeriod": "total",
+        "trafficText": "450GB 总量"
+      },
+      {
+        "name": "浪网 精英流量包",
+        "price": 1099,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 900,
+        "trafficPeriod": "total",
+        "trafficText": "900GB 总量"
+      },
+      {
+        "name": "浪网 进阶",
+        "price": 70,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 450,
+        "trafficPeriod": "month",
+        "trafficText": "450GB/月"
+      },
+      {
+        "name": "浪网 入门",
+        "price": 30,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": null,
+        "trafficPeriod": "unknown",
+        "trafficText": "流量待核验"
+      }
+    ]
+  },
+  {
+    "slug": "lingdong",
+    "name": "灵动云",
+    "sourceUrl": "https://jichangblog.org/brands/lingdong/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "灵动云参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "灵动·拂风",
+        "price": 20,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 100,
+        "trafficPeriod": "month",
+        "trafficText": "100GB/月"
+      },
+      {
+        "name": "灵动·驭浪",
+        "price": 50,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 300,
+        "trafficPeriod": "month",
+        "trafficText": "300GB/月"
+      },
+      {
+        "name": "灵动·破晓",
+        "price": 100,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 700,
+        "trafficPeriod": "month",
+        "trafficText": "700GB/月"
+      },
+      {
+        "name": "灵动·凌霄",
+        "price": 180,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1500,
+        "trafficPeriod": "month",
+        "trafficText": "1500GB/月"
+      },
+      {
+        "name": "灵动·穿云",
+        "price": 99,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 70,
+        "trafficPeriod": "year",
+        "trafficText": "70GB/年（外部原图）"
+      },
+      {
+        "name": "灵动·闲云（小流量包）",
+        "price": 199,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 150,
+        "trafficPeriod": "total",
+        "trafficText": "150GB 总量"
+      },
+      {
+        "name": "灵动·惊云（标准流量包）",
+        "price": 499,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 400,
+        "trafficPeriod": "total",
+        "trafficText": "400GB 总量"
+      },
+      {
+        "name": "灵动·飞云（精英流量包）",
+        "price": 899,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 800,
+        "trafficPeriod": "total",
+        "trafficText": "800GB 总量"
+      }
+    ]
+  },
+  {
+    "slug": "invisible",
+    "name": "隐形人",
+    "sourceUrl": "https://jichangblog.org/brands/invisible/",
+    "imported": "2026-10-12",
+    "sourceRecorded": "2026-10-03",
+    "status": "reference",
+    "caption": "隐形人参考套餐表 · 人民币 · 来源记录日期 2026-08-08",
+    "plans": [
+      {
+        "name": "隐形人 白银纪元",
+        "price": 24,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 144,
+        "trafficPeriod": "month",
+        "trafficText": "144GB/月"
+      },
+      {
+        "name": "隐形人 黄金序列",
+        "price": 48,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 360,
+        "trafficPeriod": "month",
+        "trafficText": "360GB/月"
+      },
+      {
+        "name": "隐形人 铂金至臻",
+        "price": 105,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 750,
+        "trafficPeriod": "month",
+        "trafficText": "750GB/月"
+      },
+      {
+        "name": "隐形人 钻石穹顶",
+        "price": 185,
+        "currency": "CNY",
+        "period": "month",
+        "trafficGB": 1500,
+        "trafficPeriod": "month",
+        "trafficText": "1500GB/月"
+      },
+      {
+        "name": "星耀风暴 365天不熄",
+        "price": 109,
+        "currency": "CNY",
+        "period": "year",
+        "trafficGB": 80,
+        "trafficPeriod": "unknown",
+        "trafficText": "80GB · 重置周期待核验"
+      },
+      {
+        "name": "一次性小流量",
+        "price": 229,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 160,
+        "trafficPeriod": "total",
+        "trafficText": "160GB 总量"
+      },
+      {
+        "name": "一次性标准流量包",
+        "price": 549,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 420,
+        "trafficPeriod": "total",
+        "trafficText": "420GB 总量"
+      },
+      {
+        "name": "一次性精英流量包",
+        "price": 1199,
+        "currency": "CNY",
+        "period": "one-time",
+        "trafficGB": 1000,
+        "trafficPeriod": "total",
+        "trafficText": "1000GB 总量"
+      }
+    ]
+  }
+]
