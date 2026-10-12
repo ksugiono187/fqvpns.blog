@@ -19,8 +19,12 @@ npm run dev
 
 ## 内容与数据
 
-- 唯一品牌数据源：`src/data/airports.ts`
+- 站方29个品牌与11个优惠码：`src/data/supplied-brands.ts`
+- 26个品牌的170个参考套餐：`src/data/reference-plans.json`；计算规则：`src/data/selection.ts`
+- 29品牌公开证据记录：`src/data/research.ts`；说明：`docs/public-research.md`
 - 文章：`src/content/articles/*.md`
+- 博客150篇、教程6篇、百科6篇；博客10页分页与完整主题目录；RSS：`/rss.xml`
+- 扩充清单：`docs/article-expansion.md`；发现入口检查：`scripts/check-expansion.ts`
 - 内容校验：`src/content.config.ts`
 - 评测模板：`docs/review-template.md`；缺少实测不得发布。
 - 关键词地图：`docs/keyword-map.csv`
@@ -49,4 +53,4 @@ npm run indexnow -- --changed
 
 ## 数据边界
 
-五个品牌均为 VPN，不作为已核实代理机场。价格与少量字段来自 2026-10-12 核验的官方网页；无测速、稳定性、AI 或流媒体实测，无联盟推广链接。付费定量套餐不足，不发布每 GB 排名。综合资料榜仅衡量资料字段覆盖。详见编辑政策和来源日志。
+仅保留站方提供的29个品牌；入口含推广参数，优惠码与邀请参数分开。套餐来自指定第三方来源，不作为当前官网售价。价格榜按明确月付、月容量与单位成本计算，争议或缺失字段排除。公开线路与测速检索记录说明来源、时间、环境和冲突，本站未登录服务或执行品牌测速，物理线路全部未独立核验，不发布跨品牌性能排名。详见编辑政策、public-research.md与各品牌证据区域。

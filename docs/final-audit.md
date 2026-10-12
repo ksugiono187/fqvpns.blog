@@ -4,12 +4,12 @@
 
 ## 交付范围
 
-- 75 个 HTML 页面（含 404），其中 70 个可索引页面。
+- 229 个 HTML 页面（含 404），其中 224 个可索引页面。
 - 首页主攻：机场推荐 / VPN；正式域名 https://fqvpns.blog 。
-- 仅保留29 个站方提供的机场品牌入口、11 个优惠码；6 篇教程、7 篇选择指南、6 篇百科；流量预算计算器。
+- 仅保留29 个站方提供的机场品牌入口、11 个优惠码；6 篇教程、150 篇选择指南、6 篇百科；流量预算计算器。
 - 6 个需求专题、4 类榜单框架；26 个品牌的170个第三方参考套餐已接入，发布月付价格、200GB需求和标称元/GB榜；不发布性能名次。
 - 免费、年付、月付与不同币种明确分开；单位成本仅按明确月容量计算，未计倍率或优惠；无稳定性实测，稳定页 noindex。
-- 独立评测中心、可构建评测模板和草稿模型；没有独立实测文章。
+- 独立评测中心、可构建评测模板和草稿模型；没有独立实测文章；已检索29品牌公开资料，保留来源、环境、冲突和缺失项。
 - 搜索、品牌筛选、2–4 品牌比较、移动导航、相关文章、目录和面包屑。
 - Metadata、Canonical、Schema、robots、Sitemap、真实内容变化 lastmod、IndexNow Key 与提交模块、GitHub CI、部署文档。
 
@@ -20,14 +20,17 @@
 | Production Build | PASS | Astro 6.4.8 静态构建成功；dist 已生成 |
 | TypeScript / Astro | PASS | 类型检查无错误、警告或提示 |
 | 费用与 IndexNow 测试 | PASS | 14 项：费用口径、IndexNow、同档预算容量匹配、争议排除、并列名次与流量计算 |
-| Generated HTML SEO | PASS | 75 pages, 75 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
+| Generated HTML SEO | PASS | 229 pages, 229 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
-| Internal links, assets, fragments and orphans | PASS | 4680 references; all targets resolve |
+| Internal links, assets, fragments and orphans | PASS | 14700 references; all targets resolve |
 | External link HTTP status | NOT TESTED | Source pages consulted during research; no automated full external-link crawl. |
-| Content structure and data invariants | PASS | 0 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 19 original articles; sources and dates present, no duplicate bodies or claimed tests |
+| Content structure and data invariants | PASS | 0 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 162 original articles; sources and dates present, no duplicate bodies or claimed tests |
 | Independent measurements and proxy-airport verification | NOT TESTED | No speed, stability, AI or streaming test; no proxy-airport official package data verified. |
 | Automated truth detection | NOT TESTED | Scripts detect schema and unsupported test status, cannot establish factual truth. Official source review is separate. |
-| Lighthouse performance (mobile homepage) | PASS | 100/100 |
+| 150 blog posts, pagination, search and sitemap | PASS | 150 posts; 150 unique paginated links; 29 brand evidence sections. All expected content discoverable. |
+| Metadata uniqueness and broad body overlap | PASS | Unique blog titles/descriptions. Maximum 4-character Jaccard overlap 5.5% (civet-regional-reading.md / flycat-peak-evidence.md); threshold 65%. This does not establish factual accuracy. |
+| Third-party authenticity and physical line verification | NOT TESTED | No independent service login, speed measurements or physical circuit verification. Public reports remain attributed and limited. |
+| Lighthouse performance (mobile homepage) | PASS | 99/100 |
 | Lighthouse accessibility (mobile homepage) | PASS | 100/100 |
 | Lighthouse best-practices (mobile homepage) | PASS | 100/100 |
 | Lighthouse seo (mobile homepage) | PASS | 100/100 |
@@ -44,11 +47,11 @@
 
 ## 尚未核实
 
-代理机场官网、套餐与专线资料；网络速度、稳定性、AI 和流媒体结果；具体节点地区、部分协议和设备限制；部分套餐流量。未知数据在前台显示尚未核实，未参与不适用的排序。官方来源记录见 source-log.md。自动脚本无法证明事实真伪。
+代理机场官网身份、当前套餐与物理专线；第三方记录真实性与当前网络表现；本站独立速度、稳定性、AI 和流媒体测试；具体节点地区、部分协议和设备限制；部分套餐流量。未知数据在前台显示尚未核实，未参与不适用的排序。官方来源记录见 source-log.md。自动脚本无法证明事实真伪。
 
 ## 上线判断
 
-代码可构建并支持静态上线；当前仅包含站方机场入口、优惠码与选择方法；26 个有参考套餐的品牌详情可索引，3 个缺失或归属争议品牌仍 noindex。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
+代码可构建并支持静态上线；当前包含站方机场入口、优惠码、150篇博客、10页分页、主题目录、RSS与29品牌公开来源核对；26 个有参考套餐的品牌详情可索引，3 个缺失或归属争议品牌仍 noindex。不能宣称已经完成真实机场专线推荐、三份实测排行或独立品牌评测。GitHub 已成功推送；正式上线仍需 Cloudflare 部署与域名验证、运营联系渠道和内容复核。
 
 ## 维护者手动事项
 
@@ -59,3 +62,13 @@
 5. 补充真实机场资料与可复现测试记录，以及运营联系方式。
 
 不保证 Bing 收录、首页排名或流量。
+
+## 2026-10-12：150篇博客与公开证据核对
+
+- 新增143篇，博客栏目合计150篇；另有6篇教程和6篇百科。所有新内容使用实际编辑日期。
+- 10页静态分页每页15篇；完整主题目录、全站搜索与RSS覆盖全部150篇。
+- 29品牌完成公开检索记录：7个有环境说明、14个资料不完整、7个冲突、1个未找到合格测速。来源与边界在品牌页、/research/及CSV展示。没有本站独立测速或物理线路核验。
+- 229个HTML、224个可索引页面；14700个站内引用全部通过；14个领域测试通过；类型检查57个文件0错误0警告0提示。
+- 博客移动Lighthouse：性能/可访问性/最佳实践/SEO均100；首页99/100/100/100。这是本地实验，不是线上真实用户数据。
+- 浏览器验证：本页32线程搜索只显示1篇，翻页显示第2/10页，全站灵动云搜索返回文章与品牌；公开资料状态筛选7个，微风搜索1个；桌面主题目录及手机文章未出现横向页面溢出。
+- 内容审计检查独立标题与摘要、分页覆盖、RSS、搜索、Sitemap和29个品牌证据区域。不能用结构脚本证明事实真实性。

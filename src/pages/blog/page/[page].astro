@@ -1,0 +1,6 @@
+---
+import Base from '../../../layouts/Base.astro';import BlogLibrary from '../../../components/BlogLibrary.astro';import {getCollection} from 'astro:content';
+export async function getStaticPaths(){const n=(await getCollection('articles',({data})=>data.category==='blog'&&!data.draft)).length;return Array.from({length:Math.max(0,Math.ceil(n/15)-1)},(_,i)=>({params:{page:String(i+2)}}));}
+const page=Number(Astro.params.page);
+---
+<Base title={`博客文章 · 第${page}页：选购、用量与测速判断`} description={`航线观察博客第${page}页，阅读网络服务选择、套餐计算、测速证据与排错方法的原创文章。`} breadcrumbs={[{name:'博客',url:'/blog/'},{name:`第${page}页`,url:`/blog/page/${page}/`}]}><div class="container"><div class="page-intro"><span class="eyebrow">NETWORK FIELD NOTES / LIBRARY</span><h1>选择指南 · 第{page}页</h1><p class="lead">从一个具体问题开始，找到可以执行的判断方法。</p></div><BlogLibrary page={page}/></div></Base>

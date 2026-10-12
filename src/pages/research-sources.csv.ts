@@ -1,0 +1,2 @@
+import {research,evidenceLabels} from '../data/research';import type {APIRoute} from 'astro';
+export const GET:APIRoute=()=>{const rows=[['品牌','资料状态','检索日期','测试时间（来源）','环境（来源）','协议（来源）','样本（来源）','线路口径（未独立验证）','来源页面','限制'],...research.map(r=>[r.brand.name,evidenceLabels[r.status],r.searched,r.date||'',r.environment||'',r.protocol||'',r.sample||'',r.line||'',r.url||'',r.limitation])];return new Response('\uFEFF'+rows.map(row=>row.map(s=>'"'+s.replaceAll('"','""')+'"').join(',')).join('\r\n'),{headers:{'Content-Type':'text/csv; charset=utf-8'}});};

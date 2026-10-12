@@ -1,0 +1,7 @@
+---
+import ArticleExplorer from './ArticleExplorer.astro';import {getCollection} from 'astro:content';
+const {page=1}=Astro.props;const all=(await getCollection('articles',({data})=>data.category==='blog'&&!data.draft)).sort((a,b)=>b.data.updated.localeCompare(a.data.updated)||a.data.title.localeCompare(b.data.title,'zh-CN'));const size=15;const pages=Math.ceil(all.length/size);const url=(n:number)=>n===1?'/blog/':`/blog/page/${n}/`;
+---
+<div class="library-summary"><p><strong>{all.length} 篇原创文章</strong> · 第 {page} / {pages} 页 · 每页 {size} 篇</p><p><a href="/blog/topics/">查看完整主题目录 →</a><br/>本页筛选只查找当前15篇。查找全部文章请使用右上角全站搜索。</p></div><ArticleExplorer entries={all.slice((page-1)*size,page*size)} paginated/><nav class="pagination" aria-label="博客分页">{page>1&&<a href={url(page-1)} rel="prev">← 上一页</a>}{Array.from({length:pages},(_,i)=>i+1).map(n=><a href={url(n)} aria-label={`第${n}页`} aria-current={n===page?'page':undefined}>{n}</a>)}{page < pages &&<a href={url(page+1)} rel="next">下一页 →</a>}</nav>
+
+

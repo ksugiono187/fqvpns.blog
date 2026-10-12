@@ -1,0 +1,17 @@
+[
+  {
+    "label": "150 blog posts, pagination, search and sitemap",
+    "status": "PASS",
+    "detail": "150 posts; 150 unique paginated links; 29 brand evidence sections. All expected content discoverable."
+  },
+  {
+    "label": "Metadata uniqueness and broad body overlap",
+    "status": "PASS",
+    "detail": "Unique blog titles/descriptions. Maximum 4-character Jaccard overlap 5.5% (civet-regional-reading.md / flycat-peak-evidence.md); threshold 65%. This does not establish factual accuracy."
+  },
+  {
+    "label": "Third-party authenticity and physical line verification",
+    "status": "NOT TESTED",
+    "detail": "No independent service login, speed measurements or physical circuit verification. Public reports remain attributed and limited."
+  }
+]
