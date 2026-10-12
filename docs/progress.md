@@ -20,3 +20,11 @@
 首次提交 `fbf1a19`，已成功推送到指定仓库 `origin/main`。Git 返回新分支 main -> main，并建立 upstream。无 force push。
 
 Lighthouse 首页移动端实际结果：Performance 100、Accessibility 96、Best Practices 100、SEO 100。完整 JSON 与 HTML 报告保存在 docs/。
+
+## 2026-10-12 视觉改版
+
+用户确认更换页面布局与视觉风格。首页改为杂志资讯布局：重点文章与相关阅读、主文章列表、价格与工具侧栏、品牌档案列表；全站采用纸色背景、衬线标题、直角与细线分区。技术框架继续使用 Astro。
+
+改版验证：45 页面构建成功；2024 内部引用有效；类型检查 0 错误、0 警告、0 提示。桌面 1280、手机 390 的首页无横向溢出，手机文章页与比较页无溢出；导航、搜索和比较功能正常。
+
+新版首页移动端 Lighthouse：Performance 99、Accessibility 95、Best Practices 100、SEO 100。上述初版分数仅为历史记录，当前报告已替换为新版结果。
