@@ -2,7 +2,7 @@
   {
     "label": "Internal links, assets, fragments and orphans",
     "status": "PASS",
-    "detail": "3935 references; all targets resolve"
+    "detail": "4680 references; all targets resolve"
   },
   {
     "label": "External link HTTP status",

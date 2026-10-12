@@ -4,9 +4,9 @@
 
 ## 交付范围
 
-- 70 个 HTML 页面（含 404），其中 65 个可索引页面。
+- 75 个 HTML 页面（含 404），其中 70 个可索引页面。
 - 首页主攻：机场推荐 / VPN；正式域名 https://fqvpns.blog 。
-- 仅保留29 个站方提供的机场品牌入口、11 个优惠码；5 篇教程、5 篇选择指南、5 篇百科。
+- 仅保留29 个站方提供的机场品牌入口、11 个优惠码；6 篇教程、7 篇选择指南、6 篇百科；流量预算计算器。
 - 6 个需求专题、4 类榜单框架；26 个品牌的170个第三方参考套餐已接入，发布月付价格、200GB需求和标称元/GB榜；不发布性能名次。
 - 免费、年付、月付与不同币种明确分开；单位成本仅按明确月容量计算，未计倍率或优惠；无稳定性实测，稳定页 noindex。
 - 独立评测中心、可构建评测模板和草稿模型；没有独立实测文章。
@@ -19,12 +19,12 @@
 |---|---|---|
 | Production Build | PASS | Astro 6.4.8 静态构建成功；dist 已生成 |
 | TypeScript / Astro | PASS | 类型检查无错误、警告或提示 |
-| 费用与 IndexNow 测试 | PASS | 12 项：费用口径、IndexNow、同档预算容量匹配、争议排除与并列名次 |
-| Generated HTML SEO | PASS | 70 pages, 70 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
+| 费用与 IndexNow 测试 | PASS | 14 项：费用口径、IndexNow、同档预算容量匹配、争议排除、并列名次与流量计算 |
+| Generated HTML SEO | PASS | 75 pages, 75 schema graphs; metadata, H1, canonical, robots, OG, placeholders and sitemap passed |
 | Search-engine rich result interpretation | NOT TESTED | JSON parse and visible headline checks are not a Bing live validator. |
-| Internal links, assets, fragments and orphans | PASS | 3935 references; all targets resolve |
+| Internal links, assets, fragments and orphans | PASS | 4680 references; all targets resolve |
 | External link HTTP status | NOT TESTED | Source pages consulted during research; no automated full external-link crawl. |
-| Content structure and data invariants | PASS | 0 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 15 original articles; sources and dates present, no duplicate bodies or claimed tests |
+| Content structure and data invariants | PASS | 0 verified VPN brands, 29 owner-supplied brands, 11 coupon mappings, 19 original articles; sources and dates present, no duplicate bodies or claimed tests |
 | Independent measurements and proxy-airport verification | NOT TESTED | No speed, stability, AI or streaming test; no proxy-airport official package data verified. |
 | Automated truth detection | NOT TESTED | Scripts detect schema and unsupported test status, cannot establish factual truth. Official source review is separate. |
 | Lighthouse performance (mobile homepage) | PASS | 100/100 |

@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {estimateTraffic} from '../src/data/traffic';
+test('double multiplier halves usable capacity and doubles nominal demand',()=>{assert.deepEqual(estimateTraffic(200,2,5,27),{usable:100,days:20,monthly:300,cost:.27});});
+test('invalid and zero consumption cannot produce infinite or misleading estimates',()=>{for(const args of [[200,0,5,27],[200,1,0,27],[Infinity,1,5,27],[200,1,5,-1],[200,1,1e308,27]])assert.equal(estimateTraffic(...args as [number,number,number,number]),null);assert.equal(estimateTraffic(200,1,5,0)?.cost,0);});

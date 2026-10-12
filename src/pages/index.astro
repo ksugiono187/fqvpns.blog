@@ -6,7 +6,7 @@ import {getCollection} from 'astro:content';
 const articles=(await getCollection('articles',({data})=>!data.draft)).sort((a,b)=>b.data.updated.localeCompare(a.data.updated)||a.id.localeCompare(b.id));
 const guides=articles.filter(e=>e.data.category==='blog');
 const glossary=articles.filter(e=>e.data.category==='glossary');
-const faqs=[['机场和 VPN 有什么区别？','“机场”通常指代理订阅服务；VPN 通常提供系统隧道与专用客户端。先确认应用范围、协议与客户端需求，再比较套餐。'],['第一次购买，先看什么？','确认官方入口、真实支付金额、流量条件、设备限制与退款规则。用自己的网络短期测试后，再决定是否延长订阅。'],['资料库中的品牌经过实测吗？','目前仅核验了官方公开资料。速度、稳定性、AI 和流媒体表现尚无独立测试，页面不会将官方宣传改写成实测结论。'],['如何比较不同套餐的费用？','同币种、同周期分组比较。月付、年付与不限时套餐分开；不限流量不计算每 GB 成本，缺少资料的方案不参加排序。']];
+const faqs=[['机场和 VPN 有什么区别？','“机场”通常指代理订阅服务；VPN 通常提供系统隧道与专用客户端。先确认应用范围、协议与客户端需求，再比较套餐。'],['第一次购买，先看什么？','确认官方入口、真实支付金额、流量条件、设备限制与退款规则。用自己的网络短期测试后，再决定是否延长订阅。'],['资料库中的品牌经过实测吗？','当前收录站方提供的29个品牌入口，并整理26个品牌的第三方参考套餐。速度、稳定性、AI 和流媒体表现尚无独立测试，页面不会将官方宣传改写成实测结论。'],['如何比较不同套餐的费用？','同币种、同周期分组比较。月付、年付与不限时套餐分开；不限流量不计算每 GB 成本，缺少资料的方案不参加排序。']];
 ---
 <Base title="机场推荐与 VPN 选择指南：套餐、资料与横向比较" description="从预算、套餐周期、客户端与可核验资料出发选择机场或 VPN。提供品牌资料、价格比较、新手教程和知识百科，清楚区分官方说明与实测结果。">
  <section class="orbit-hero"><div class="container orbit-stage">
