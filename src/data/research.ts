@@ -11,7 +11,7 @@ const records:ResearchRecord[]=[
 {slug:'flashleap',status:'reported',url:'https://tizilab.net/paihang/flashleap/',publisher:'梯子实验室',date:'2026-07-18 21:18 CST',environment:'珠海联通 9Gbps · 32 线程 · MiaoKo',protocol:'VLESS（来源记录）',sample:'50 个节点',line:'来源转述 IPLC；未经物理核验',observations:['香港平均下载范围约505–551 MB/s。','新加坡08约9.6 KB/s，不能用全组高速度掩盖这一异常。'],limitation:'高带宽服务器并发结果无法直接推导家庭单连接速度。'},
 {slug:'worryfree',status:'reported',url:'https://jichangnote.com/reviews/wuyou-link/',publisher:'机场笔记',date:'2026-07-18 21:40:48 CST',environment:'珠海联通 9Gbps · 32 线程 · MiaoKo 4.3.3 / 核心4.7.0',protocol:'VLESS（该次记录）',sample:'50 个节点 / 5 个命名地区',line:'来源转述全 IPLC、×1；未核验物理线路',observations:['香港组平均下载524.41 MB/s，TLS RTT均值108.1 ms。','SIN02只有17.59 KB/s；取得非零结果不等于可顺畅使用。'],limitation:'单次成功率不能替代连续在线率；来源没有上传速度与丢包结果。'},
 {slug:'kuajie',status:'limited',url:'https://haoyongjichang.com/review/kuajie/',publisher:'好用机场',line:'第三方转述 IPLC；未取得线路采购或拓扑证据',limitation:'找到套餐与宣传说明，未找到披露完整环境的原始测速记录。'},
-{slug:'stardream',status:'limited',url:'https://www.clashcaocao.com/',publisher:'Clash曹操',date:'2026-07-20（来源标注）',sample:'来源提及90个节点',limitation:'发现测试摘要，但本库尚未复核完整日志与品牌对应关系；不将摘要转成当前速度结论。'},
+{slug:'stardream',status:'reported',url:'https://jichangtuijiancn.co/reviews/xingdaomeng/',publisher:'机场中文网',date:'2026-06-17 18:32 CST',environment:'珠海联通9Gbps · 32线程 · MiaoKo',sample:'60个节点',limitation:'仅为历史傍晚单次记录；美国02为KB级异常，不能据此判断21点后的晚高峰或长期稳定性。'},
 {slug:'lightspeed',status:'reported',url:'https://fanfanqiang.net/data/',publisher:'翻翻墙',date:'2026-07-18 21:40 CST（第一轮）',environment:'珠海联通9Gbps · 32线程 · MiaoKo',sample:'第一轮50个节点；来源另有第二轮',line:'另有宣传称 IPLC，不是本次测速证明',observations:['第一轮香港平均下载范围393–555 MB/s。','第一轮新加坡02无有效速度结果。'],limitation:'按单独轮次引用；多线程MB/s与普通家宽可达速度不是同一个量。'},
 {slug:'v2yun',status:'disputed',url:'https://jichangtuijian1.com/pianyijichang/weituyun',publisher:'机场推荐',limitation:'发现与站方相同的 fast.v2yunvipaff.com 域名，但该页主要是后台节点核验；其他测速来源的节点数、协议与时间不同，未确认同一订阅批次。'},
 {slug:'u1s1',status:'limited',url:'https://jichangair.world/recommend/stable/peak-hour-records',publisher:'JICHANG AIR',date:'2026-08-11 22:33:29 CST',environment:'珠海联通5Gbps · 32线程 · MAI-TEST-BOT 2.0.0-dev',protocol:'Shadowsocks（截图标注）',sample:'来源统计62个节点',limitation:'这是第三方持有的历史截图；品牌宣传VLESS与截图SS口径不同。未取得原始机器日志，不录入综合速度评分。'},
@@ -32,7 +32,7 @@ const records:ResearchRecord[]=[
 {slug:'lingdong',status:'disputed',url:'https://towernav.com/airports/lingdong/',publisher:'TowerNav',date:'2026-07-20 20:54 CST（来源标注）',environment:'珠海联通9Gbps · 32线程 · MiaoKo',protocol:'VLESS（来源记录）',line:'页面称 IPLC，其他页面称 IEPL / BGP，未经物理核验',limitation:'来源表格的部分日本和美国行出现相同延迟、速度组合，且协议宣传不一致。保留线索，数值暂不入库。'},
 {slug:'invisible',status:'disputed',url:'https://yunmoo.net/article/invisible-person-jichang-pingce-2026/',publisher:'Yunmoo',date:'2026-07-20 20:54:55 CST（来源标注）',sample:'60个VLESS节点（用户提供图片）',line:'不同页面分别宣传 BGP 与 IEPL，不能确认实际链路',limitation:'用户提供图没有完整可复现日志，与其他品牌出现相近批次时间。未确认订阅身份，不录入数值排名。'}
 ];
-export const research=records.map(r=>({...r,brand:suppliedBrands.find(b=>b.slug===r.slug)!,searched:'2026-10-12'}));
+export const research=records.map(r=>({...r,brand:suppliedBrands.find(b=>b.slug===r.slug)!,searched:['breezenet','flycat','civet','flashleap','worryfree','stardream','lightspeed','kuaili'].includes(r.slug)?'2026-10-13':'2026-10-12'}));
 export const evidenceLabels={reported:'有环境说明的第三方记录',limited:'资料不完整',disputed:'资料存在冲突',missing:'本轮未找到合格测速'};
 
 

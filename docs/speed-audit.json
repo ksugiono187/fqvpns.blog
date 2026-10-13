@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Attributed speed records, CSV and brand pages",
+    "status": "PASS",
+    "detail": "8 batches; 40 regional rows. Sources and anomaly notes preserved in hub and brand detail."
+  },
+  {
+    "label": "Independent measurement or screenshot authenticity",
+    "status": "NOT TESTED",
+    "detail": "Public-source transcription only; no live service tests or independent proof of screenshot authenticity."
+  }
+]

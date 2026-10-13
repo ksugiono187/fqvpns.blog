@@ -1,5 +1,9 @@
 ---
 import {research,evidenceLabels} from '../data/research';
+import {speedBatches} from '../data/speed-tests';
+import SpeedTable from './SpeedTable.astro';
 const {slug}=Astro.props;const r=research.find(x=>x.slug===slug)!;
+const batch=speedBatches.find(b=>b.slug===slug);
 ---
+{batch&&<section id="speed-records"><h2>地区测速数据</h2><p>第三方历史快照，本站未独立测速或验证截图真实性。</p><SpeedTable batch={batch}/><p><a href="/speedtest/">查看8品牌测速资料 →</a></p></section>}
 <section id="public-evidence"><h2>公开线路与测速资料</h2><p><span class="label">{evidenceLabels[r.status]}</span> · 检索日期 {r.searched}</p><p>以下是网上公开资料的整理，本站没有登录该服务或进行测速，不能独立确认截图真实性、当前线路或持续表现。</p>{r.line&&<p><strong>线路资料：</strong>{r.line}。</p>}<dl class="evidence-fields">{r.date&&<><dt>来源测试时间</dt><dd>{r.date}</dd></>}{r.environment&&<><dt>来源测试环境</dt><dd>{r.environment}</dd></>}{r.protocol&&<><dt>协议记录</dt><dd>{r.protocol}</dd></>}{r.sample&&<><dt>样本范围</dt><dd>{r.sample}</dd></>}</dl>{r.observations&&<><h3>该轮资料中的观察</h3><ul>{r.observations.map(t=><li>{t}</li>)}</ul></>}<div class="notice">{r.limitation}</div>{r.url&&<p><a href={r.url} target="_blank" rel="nofollow noopener noreferrer">查看 {r.publisher} 原始页面 ↗</a></p>}<p><a href="/research/">查看全部29个品牌的检索状态 →</a> · <a href="/review/">测试方法与空白记录表 →</a></p></section>

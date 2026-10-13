@@ -1,0 +1,13 @@
+---
+import type {SpeedBatch} from '../data/speed-tests';
+interface Props {batch:SpeedBatch}
+const {batch:b}=Astro.props;
+---
+<div class="speed-record" data-speed-record={b.slug}>
+ <p class="speed-date">第三方历史记录 · {b.tested}</p>
+ <p class="speed-environment">{b.environment}</p>
+ <p class="speed-basis">数值口径：{b.basis}。MB/s与Mbps不同；TLS RTT包含握手，不能当作Ping。</p>
+ <div class="table-wrap speed-scroll" tabindex="0" role="region" aria-label="地区测速表，可左右滑动"><table><caption>来源报告的地区测速数据</caption><thead><tr><th scope="col">地区 / 节点</th><th scope="col">下载速度</th><th scope="col">TLS RTT</th><th scope="col">异常与样本说明</th></tr></thead><tbody>{b.rows.map(r=><tr><th scope="row">{r.region}<small>{r.nodes}个节点</small></th><td>{r.download}</td><td>{r.latency}</td><td>{r.note}</td></tr>)}</tbody></table></div>
+ <p class="speed-limit">{b.notes}</p>
+ <p><a href={b.url} target="_blank" rel="nofollow noopener noreferrer">查看 {b.publisher} 原始测速与证据 ↗</a> · 核对日期 2026-10-13</p>
+</div>
